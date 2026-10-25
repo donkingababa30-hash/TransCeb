@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TransCeb</string>
+    <string name="app_tagline">📍 Metro Cebu Transit Guide</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_subhead">Sign in to explore Jeepney routes &amp; fares</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="hint_username">Enter username</string>
+    <string name="hint_password">Enter password</string>
+    <string name="btn_fill_demo">Fill Demo Login (admin / 123456)</string>
+    <string name="btn_sign_in">SIGN IN</string>
+    <string name="btn_quick_admin">⚡ ONE-TAP DEMO SIGN IN (admin)</string>
+    <string name="no_account">Don\'t have an account?\u0020</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="default_admin_username">admin</string>
+    <string name="default_admin_password">123456</string>
+
+    <string name="register_title">Join TransCeb</string>
+    <string name="register_subhead">Explore Cebu City jeepney routes &amp; real-time fares</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account?\u0020</string>
+    <string name="btn_log_in">Log In</string>
+
+    <string name="welcome_commuter">Welcome, %1$s!</string>
+    <string name="cebu_city_tag">📍 Cebu City, PH</string>
+    <string name="search_prompt">Where are you commuting to today?\u0020</string>
+
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_choose_username">Choose username</string>
+    <string name="label_password_min_length">Password (min 7 chars)</string>
+    <string name="hint_password_min_chars">At least 7 characters</string>
+    <string name="hint_confirm_password">Re-enter password</string>
+    <string name="btn_create_account">CREATE ACCOUNT</string>
+    <string name="desc_transceb_logo">TransCeb Logo</string>
+    <string name="desc_first_name_icon">First Name Icon</string>
+    <string name="desc_last_name_icon">Last Name Icon</string>
+    <string name="desc_username_icon">Username Icon</string>
+    <string name="desc_password_icon">Password Icon</string>
+    <string name="desc_toggle_password">Toggle Password Visibility</string>
+    <string name="desc_confirm_password_icon">Confirm Password Icon</string>
+    <string name="desc_toggle_confirm_password">Toggle Confirm Password Visibility</string>
+</resources>
