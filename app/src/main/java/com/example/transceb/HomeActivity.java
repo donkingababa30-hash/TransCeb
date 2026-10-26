@@ -90,26 +90,28 @@ public class HomeActivity extends AppCompatActivity {
         if (btnHomeLogout != null) btnHomeLogout.setOnClickListener(v -> performLogout());
 
         // Search Input Watcher
-        txtSearchJeepney.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+        if (txtSearchJeepney != null) {
+            txtSearchJeepney.addTextChangedListener(new TextWatcher() {
+                @Override
+                public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                filterRoutes(s.toString().trim());
-            }
+                @Override
+                public void onTextChanged(CharSequence s, int start, int before, int count) {
+                    filterRoutes(s.toString().trim());
+                }
 
-            @Override
-            public void afterTextChanged(Editable s) {}
-        });
+                @Override
+                public void afterTextChanged(Editable s) {}
+            });
 
-        txtSearchJeepney.setOnEditorActionListener((v, actionId, event) -> {
-            String route = txtSearchJeepney.getText().toString().trim();
-            if (!route.isEmpty()) {
-                Toast.makeText(HomeActivity.this, "Searching Jeepney Route: " + route + " in Metro Cebu...", Toast.LENGTH_SHORT).show();
-            }
-            return false;
-        });
+            txtSearchJeepney.setOnEditorActionListener((v, actionId, event) -> {
+                String route = txtSearchJeepney.getText().toString().trim();
+                if (!route.isEmpty()) {
+                    Toast.makeText(HomeActivity.this, "Searching Jeepney Route: " + route + " in Metro Cebu...", Toast.LENGTH_SHORT).show();
+                }
+                return false;
+            });
+        }
 
         // Chip Clicks
         setupChipListeners();

@@ -32,6 +32,20 @@
             android:theme="@style/Theme.TransCeb" />
 
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:label="Forgot Password - TransCeb"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.TransCeb" />
+
+        <activity
+            android:name=".OtpVerificationActivity"
+            android:exported="false"
+            android:label="OTP Verification - TransCeb"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.TransCeb" />
+
+        <activity
             android:name=".HomeActivity"
             android:exported="false"
             android:label="TransCeb Home"

@@ -1,56 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_brand">#1F3C4D</color>
-    <color name="primary_brand_variant">#13213C</color>
-    <color name="primary_navy">#1F3C4D</color>
-    <color name="ocean_blue">#325B7D</color>
+    <!-- Vibrant Blue Header (Figma UI Inspiration) -->
+    <color name="figma_header_blue">#1680EC</color>
+    <color name="figma_bg_sheet">#FAFBFD</color>
+    <color name="figma_black_btn">#1A1D20</color>
 
-    <color name="coral_cta">#FF7F50</color>
-    <color name="coral_cta_dark">#D9532F</color>
+    <color name="primary_brand">#1680EC</color>
+    <color name="primary_brand_variant">#0F68C6</color>
+    <color name="primary_navy">#1A1D20</color>
+    <color name="ocean_blue">#1680EC</color>
+
+    <!-- Coral Action Accent -->
+    <color name="coral_cta">#1A1D20</color>
+    <color name="coral_cta_dark">#1A1D20</color>
     <color name="coral_cta_light">#FFF0EB</color>
     <color name="coral_badge_bg">#FFEBE5</color>
     <color name="coral_badge_text">#D9532F</color>
 
+    <!-- Teal & Mint Accents -->
     <color name="teal_muted">#5797A0</color>
     <color name="icy_mint">#6AB6B2</color>
     <color name="icy_mint_badge_bg">#E8F6F5</color>
     <color name="icy_mint_badge_text">#1F6E6B</color>
 
-    <color name="sky_blue">#325B7D</color>
+    <!-- Sky / Ocean Blue Badges -->
+    <color name="sky_blue">#1680EC</color>
     <color name="sky_blue_badge_bg">#EBF3F8</color>
-    <color name="sky_blue_badge_text">#1F3C4D</color>
+    <color name="sky_blue_badge_text">#1680EC</color>
 
-    <color name="brand_amber">#FF7F50</color>
-    <color name="brand_amber_dark">#325B7D</color>
+    <!-- Compatibility mappings -->
+    <color name="brand_amber">#1680EC</color>
+    <color name="brand_amber_dark">#1680EC</color>
     <color name="brand_amber_light">#FFF0EB</color>
     <color name="brand_amber_badge_bg">#E8F6F5</color>
     <color name="brand_amber_badge_text">#1F6E6B</color>
 
-    <color name="warm_gold">#325B7D</color>
-    <color name="warm_gold_dark">#1F3C4D</color>
+    <color name="warm_gold">#1680EC</color>
+    <color name="warm_gold_dark">#1A1D20</color>
     <color name="warm_gold_badge_bg">#EBF3F8</color>
-    <color name="warm_gold_badge_text">#1F3C4D</color>
+    <color name="warm_gold_badge_text">#1680EC</color>
 
-    <color name="steel_indigo">#325B7D</color>
-    <color name="muted_navy">#1F3C4D</color>
+    <color name="steel_indigo">#1680EC</color>
+    <color name="muted_navy">#1A1D20</color>
     <color name="muted_slate">#5797A0</color>
 
-    <color name="bg_screen">#F8FAF9</color>
-    <color name="card_surface">#FFFFFF</color>
-    <color name="card_stroke">#E2E8F0</color>
-    <color name="input_bg">#F1F5F9</color>
-    <color name="input_stroke">#CBD5E1</color>
+    <!-- Surfaces & Backgrounds -->
+    <color name="bg_screen">#1680EC</color>
+    <color name="card_surface">#FAFBFD</color>
+    <color name="card_stroke">#CCCCCC</color>
+    <color name="input_bg">#F5F7FA</color>
+    <color name="input_stroke">#CCCCCC</color>
 
-    <color name="text_primary">#1F3C4D</color>
-    <color name="text_secondary">#5797A0</color>
-    <color name="text_hint">#94A3B8</color>
+    <!-- Typography -->
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#AAAAAA</color>
     <color name="text_white">#FFFFFF</color>
 
+    <!-- Badges -->
     <color name="badge_navy_bg">#EBF3F8</color>
-    <color name="badge_navy_text">#1F3C4D</color>
+    <color name="badge_navy_text">#1A1D20</color>
     <color name="badge_blue_bg">#E8F6F5</color>
     <color name="badge_blue_text">#1F6E6B</color>
 
+    <!-- Statuses -->
     <color name="error_red">#DC2626</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>

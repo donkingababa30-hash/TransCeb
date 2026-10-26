@@ -1,6 +1,54 @@
 <resources>
     <string name="app_name">TransCeb</string>
     <string name="app_tagline">📍 Metro Cebu Transit Guide</string>
+    <string name="question_mark">\?</string>
+
+    <!-- Sign In Page -->
+    <string name="sign_in_title">Sign In</string>
+    <string name="sign_in_subhead">Please enter a valid account</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">youremail@gmail.com</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password_dots">********</string>
+    <string name="btn_forgot_password">Forgot Password</string>
+    <string name="btn_sign_in_action">Sign In</string>
+    <string name="or_divider">OR</string>
+    <string name="dont_have_account">Don\'t have account?\u0020</string>
+    <string name="sign_up_link">Sign Up</string>
+
+    <!-- Sign Up Page -->
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_subhead">Create an account, it\'s free</string>
+    <string name="label_name">Name</string>
+    <string name="hint_name">Your name</string>
+    <string name="btn_sign_up_action">Sign Up</string>
+    <string name="have_account">Have account?\u0020</string>
+    <string name="sign_in_link">Sign In</string>
+
+    <!-- Forgot Password Page -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_subhead">Please enter your email for sending OTP</string>
+    <string name="btn_send_otp">Send</string>
+
+    <!-- OTP Verification Page -->
+    <string name="otp_title">OTP Verification</string>
+    <string name="otp_subhead">Please enter a code from email</string>
+    <string name="label_your_code">Your code</string>
+    <string name="hint_code_dots">******</string>
+    <string name="btn_verify">Verification</string>
+
+    <!-- Content Descriptions -->
+    <string name="desc_transceb_logo">TransCeb Logo</string>
+    <string name="desc_first_name_icon">First Name Icon</string>
+    <string name="desc_last_name_icon">Last Name Icon</string>
+    <string name="desc_username_icon">Username Icon</string>
+    <string name="desc_password_icon">Password Icon</string>
+    <string name="desc_toggle_password">Toggle Password Visibility</string>
+    <string name="desc_confirm_password_icon">Confirm Password Icon</string>
+    <string name="desc_toggle_confirm_password">Toggle Confirm Password Visibility</string>
+    <string name="desc_google_sign_in">Sign in with Google</string>
+
+    <!-- Legacy / Compatibility Strings -->
     <string name="welcome_back">Welcome Back</string>
     <string name="login_subhead">Sign in to explore Jeepney routes &amp; fares</string>
     <string name="username">Username</string>
@@ -35,12 +83,4 @@
     <string name="hint_password_min_chars">At least 7 characters</string>
     <string name="hint_confirm_password">Re-enter password</string>
     <string name="btn_create_account">CREATE ACCOUNT</string>
-    <string name="desc_transceb_logo">TransCeb Logo</string>
-    <string name="desc_first_name_icon">First Name Icon</string>
-    <string name="desc_last_name_icon">Last Name Icon</string>
-    <string name="desc_username_icon">Username Icon</string>
-    <string name="desc_password_icon">Password Icon</string>
-    <string name="desc_toggle_password">Toggle Password Visibility</string>
-    <string name="desc_confirm_password_icon">Confirm Password Icon</string>
-    <string name="desc_toggle_confirm_password">Toggle Confirm Password Visibility</string>
 </resources>
